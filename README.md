@@ -13,8 +13,8 @@ Here is a detailed explanation of each script and its underlying mechanics:
   - **How it works**: It uses `set /p` to prompt the user for input. It then dynamically replaces all spaces in the query string with `%20` (URL encoding) and executes the `start chrome --incognito` command with the formatted ChatGPT search URL.
 
 - **`marvelcaption.bat`**: 
-  - **Purpose**: Opens a specific existing ChatGPT conversation in Brave Browser and pre-fills it with a provided prompt.
-  - **How it works**: It captures user input with `set /p`, URL-encodes spaces, and launches `brave.exe` targeting the specific ChatGPT conversation URL.
+  - **Purpose**: Opens a specific Google Gemini conversation in Brave Browser and passes along the prompt.
+  - **How it works**: It captures user input with `set /p`, URL-encodes spaces, and launches `brave.exe` targeting the specific Google Gemini conversation URL.
 
 - **`drive.bat`**: 
   - **Purpose**: Quickly opens Google Drive in a Brave Browser incognito window.
