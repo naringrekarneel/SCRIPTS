@@ -12,6 +12,10 @@ Here is a detailed explanation of each script and its underlying mechanics:
   - **Purpose**: Opens a new ChatGPT session in a Google Chrome incognito window with a provided prompt.
   - **How it works**: It uses `set /p` to prompt the user for input. It then dynamically replaces all spaces in the query string with `%20` (URL encoding) and executes the `start chrome --incognito` command with the formatted ChatGPT search URL.
 
+- **`specific_chat.bat`**: 
+  - **Purpose**: Opens a specific existing ChatGPT conversation in a Google Chrome incognito window and pre-fills it with a provided prompt.
+  - **How it works**: Similar to `chat.bat`, it captures user input with `set /p`, URL-encodes spaces, and launches Chrome incognito, but it targets a specific conversation URL.
+
 - **`drive.bat`**: 
   - **Purpose**: Quickly opens Google Drive in a Brave Browser incognito window.
   - **How it works**: It directly calls the `start` command targeting the `brave.exe` executable with the `--incognito` flag and the Google Drive URL.
