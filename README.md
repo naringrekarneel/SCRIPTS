@@ -24,6 +24,10 @@ Here is a detailed explanation of each script and its underlying mechanics:
   - **Purpose**: Opens my GitHub profile directly in the default browser.
   - **How it works**: It uses the `start` command with the GitHub profile URL, which prompts the Windows shell to open it in the default system browser.
 
+- **`overleaf.bat`**: 
+  - **Purpose**: Opens Overleaf Projects directly in the default browser.
+  - **How it works**: It uses the `start` command to open the Overleaf project dashboard URL.
+
 - **`pin.bat`**: 
   - **Purpose**: Asks for a search term and searches Pinterest using the Brave Browser.
   - **How it works**: Uses `set /p` to request a search query from the user. It then executes the `start` command to launch `brave.exe`, passing the search term directly into the Pinterest search URL parameters.
